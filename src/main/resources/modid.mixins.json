@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.bb1.discord.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  	"ChatHandler",
+  	"PlayerHandler"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
